@@ -3,63 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio - Your Name</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Navbar -->
+    <!-- Header -->
     <header>
-        <nav>
-            <div class="logo">
-                <a href="#">Your Name</a>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <div class="logo">My Portfolio</div>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <!-- Hero Section -->
-    <section id="hero">
-        <div class="hero-content">
-            <h1>Hi, I'm Your Name</h1>
-            <p>Welcome to my portfolio website!</p>
+    <section class="hero" id="hero">
+        <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Discover my work and passion for creating impactful projects.</p>
+            <a href="#portfolio" class="btn">View My Work</a>
         </div>
     </section>
 
     <!-- About Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Write a short description about yourself here.</p>
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a passionate developer with a keen eye for detail and a love for solving problems through technology. My goal is to create experiences that inspire and engage.</p>
+        </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>My Projects</h2>
-        <div class="project-cards">
-            <!-- Example project card -->
-            <div class="project-card">
-                <img src="project1.jpg" alt="Project 1">
-                <h3>Project 1</h3>
-                <p>Description of project 1</p>
-                <a href="#">View Project</a>
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2>My Portfolio</h2>
+            <div class="grid">
+                <div class="grid-item">Project 1</div>
+                <div class="grid-item">Project 2</div>
+                <div class="grid-item">Project 3</div>
+                <div class="grid-item">Project 4</div>
             </div>
-            <!-- Add more project cards as needed -->
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Feel free to reach out to me through email or social media.</p>
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out via my social channels.</p>
+            <div class="social-icons">
+                <a href="#" target="_blank">Twitter</a>
+                <a href="#" target="_blank">LinkedIn</a>
+                <a href="#" target="_blank">GitHub</a>
+            </div>
+        </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Your Name. All rights reserved.</p>
+        <p>&copy; 2024 My Portfolio. All Rights Reserved.</p>
     </footer>
 </body>
 </html>
